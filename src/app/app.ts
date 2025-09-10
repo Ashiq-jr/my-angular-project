@@ -14,4 +14,5 @@ export class App {
   a = 10; // class member / property
   b = 27; // class member / property
   sum = this.a + this.b; // 'this' keyword is used to access the properties of the class.
+  imageUrl : string = "/favicon.ico"; // property to hold image URL. The image will be displayed in the html file using property binding.
 }
