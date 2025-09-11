@@ -2,4 +2,8 @@
 <p> the sum of {{ a }} and {{ b }} is {{ sum }} </p>
 <img [src] = "imageUrl" alt="Image will be displayed here once the URL is provided">
 <br>
+<button type="button" (click) = "display('Example for event binding')">clck me</button>
+<button type="button" (click) = "increment()">Increment ++</button>
+<button type="button" (click) = "decrement()">Decrement --</button>
+<p>Counter : {{ counter }}</p>
 <app-first-component></app-first-component>
