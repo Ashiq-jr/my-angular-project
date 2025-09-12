@@ -29,4 +29,8 @@ export class App {
   decrement(): void{
     this.counter--;
   }
+
+  displayEvent(e: any): void{
+    console.log(e.target.value);
+  }
 }

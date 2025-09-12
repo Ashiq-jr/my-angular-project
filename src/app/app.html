@@ -6,4 +6,9 @@
 <button type="button" (click) = "increment()">Increment ++</button>
 <button type="button" (click) = "decrement()">Decrement --</button>
 <p>Counter : {{ counter }}</p>
+<br >
+<br >
+<input type="text" (copy)="display('Example for keyboard event')" />
+<!-- <input type="text" (keyup)="display('Example for keyboard event')" /> -->
+<input type="text" (keyup) = "displayEvent($event)" />
 <app-first-component></app-first-component>
